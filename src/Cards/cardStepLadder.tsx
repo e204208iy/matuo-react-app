@@ -10,7 +10,8 @@ export default function CardStepLadder() {
         <Card sx={{boxShadow:2}}>
             <CardActionArea onClick={() => navigate('/stepladderPage')}>
             <CardHeader
-                title="脚立"
+                title="脚立-労災"
+                style={{ textAlign: 'center' }}
             />
             <Avatar aria-label="recipe" src="./ladder.png" sx={{ width: 100, height: 100 }}>
             </Avatar>

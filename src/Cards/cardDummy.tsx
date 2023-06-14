@@ -11,6 +11,7 @@ export default function CardDummy() {
             <CardActionArea onClick={() => navigate('/stepladderPage')}>
             <CardHeader
                 title="Dummy"
+                style={{ textAlign: 'center' }}
             />
             <Avatar aria-label="recipe" src="./no.png" sx={{ width: 100, height: 100 }}>
             </Avatar>

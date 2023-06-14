@@ -1,11 +1,14 @@
 import Typography from '@mui/material/Typography';
+import Container from '@mui/material/Container';
 
 export default function HelmetPage() {
     return (
-       <div>
-         <Typography variant="h6" gutterBottom>
-            ヘルメットの動画をクリックしてください。
-        </Typography>
-       </div>
+      <Container>
+         <div>
+            <Typography variant="h6" gutterBottom>
+               おおおおおおおお
+            </Typography>
+         </div>
+       </Container>
     );
   }

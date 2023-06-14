@@ -13,6 +13,7 @@ export default function CardClothes() {
             <Box>
             <CardHeader
                 title="作業服"
+                style={{ textAlign: 'center' }}
             />
             <Avatar aria-label="recipe" src="./cloth.png" sx={{ width: 100, height: 100 }}>
             </Avatar>
